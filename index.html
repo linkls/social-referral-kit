@@ -393,7 +393,7 @@ function renderResult(){
     h+='<div class="bar"><i style="width:'+pct+'%"></i></div></div>';
   }
   h+='<div class="scoretxt">总分 '+total+' / '+(mx*3)+' 分</div>';
-  h+='<div class="scorebar"><i style="width:'Math.round(total/(mx*3)*100)+'%"></i></div>';
+  h+='<div class="scorebar"><i style="width:'+Math.round(total/(mx*3)*100)+'%"></i></div>';
   h+='</div>';
   h+='<div class="res-list">';
   for(var t=0;t<band[3][0].length;t++){
